@@ -1,0 +1,27 @@
+{
+  "name": "react-static-example-basic",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000",
+    "test": "jest --runInBand --setupFiles='<rootDir>/jest/setup.default.js'"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "chromeless": "^1.3.0",
+    "jest": "^21.2.1",
+    "jest-image-snapshot": "^2.2.0",
+    "navalia": "^1.2.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-static": "^4.3.4"
+  },
+  "devDependencies": {
+    "eslint-config-react-tools": "1.x.x",
+    "serve": "^6.1.0"
+  }
+}
